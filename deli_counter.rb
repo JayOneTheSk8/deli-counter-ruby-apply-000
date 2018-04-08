@@ -8,6 +8,7 @@ def line(deli)
     order = "The line is currently: "
     while i < deli.length
       order += "#{i + 1}. #{deli[i]}"
+      i += 1
     end
     puts order
   end
