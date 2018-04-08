@@ -7,8 +7,12 @@ def line(deli)
     i = 0
     order = "The line is currently: "
     while i < deli.length
-      order += "#{i + 1}. #{deli[i]}"
-      i += 1
+      if i + 1 == deli.length
+        order += "#{i + 1}. #{deli[i]}"
+      else
+        order += "#{i + 1}. #{deli[i]} "
+        i += 1
+      end
     end
     return order
   end
