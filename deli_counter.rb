@@ -10,6 +10,6 @@ def line(deli)
       order += "#{i + 1}. #{deli[i]}"
       i += 1
     end
-    puts order
+    return order
   end
 end
