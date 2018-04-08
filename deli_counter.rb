@@ -16,3 +16,8 @@ def line(deli)
     puts order
   end
 end
+
+def take_a_number(cue, person)
+  cue << person
+  puts "#{cue.length}. #{person}"
+end
