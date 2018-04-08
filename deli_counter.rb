@@ -13,6 +13,6 @@ def line(deli)
         i += 1
       end
     end
-    return order
+    puts order
   end
 end
