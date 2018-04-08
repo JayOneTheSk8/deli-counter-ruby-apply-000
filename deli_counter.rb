@@ -9,6 +9,7 @@ def line(deli)
     while i < deli.length
       if i + 1 == deli.length
         order += "#{i + 1}. #{deli[i]}"
+        i += 1
       else
         order += "#{i + 1}. #{deli[i]} "
         i += 1
